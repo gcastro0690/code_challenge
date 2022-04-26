@@ -11,12 +11,12 @@ import { State } from '@src/utils/types';
 import Select from '@src/components/select';
 
 const Main: React.FC = () => {
-  const [street, setStreet] = useState('5459 NW 72ND AVE');
+  const [street, setStreet] = useState('');
   const [city, setCity] = useState(null);
   const [state, setState] = useState(null);
   const [states, setStates] = useState(null);
   const [cities, setCities] = useState(null);
-  const [zip, setZip] = useState('33166');
+  const [zip, setZip] = useState('');
   const [forecast, setForecast] = useState(null);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(true);
